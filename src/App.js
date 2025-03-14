@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <Container>
         <Typography variant="h4" gutterBottom>
-          Gerenciamento de Eventos
+          Minha Agenda
         </Typography>
         <Button variant="contained" component={Link} to="/criar">
           Criar Novo Evento
