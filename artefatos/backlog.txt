@@ -1,0 +1,29 @@
+Criar projeto react:
+npx create-react-app agenda 
+
+Acessar pasta do projeto:
+
+cd agenda
+
+Instalar bibliotecas necessárias:
+
+npm install react-router-dom
+npm install @mui/material @emotion/react @emotion/styled
+npm install axios
+npm install react-big-calendar moment
+
+
+Rodar servidor projeto:
+
+npm start
+
+Backlog:
+01 - Elaboração do componente para Listar Eventos da Agenda; OK
+02 - Elaboração do Componente para Formulário para Criação, Edição e Exclusão do Evento; OK
+03 - Atualização do APP conforme novos componentes criados; Ok
+04 - Inclusão dos dados da API; Ok
+05 - Inclusão do endpoint para ajustar status na lista de eventos; Ok
+06 - Implementação do BigCalendar React;
+07 - Criação do Dockerfile da imagem personalizada para docker; Ok
+08 - Criação do contêiner para executar a aplicação; Ok
+09 - Testes de integração com a API. Ok
